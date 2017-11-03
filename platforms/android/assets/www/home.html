@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+          <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+          <link type="text/css" rel="stylesheet" href="css/animate.css"  media="screen,projection"/>
+          <link href="css/mico.css" rel="stylesheet">
+          <script src="js/jquery.min.js"></script>
+          <script type="text/javascript" src="js/materialize.min.js"></script>
+          <script type="text/javascript" src="js/main.js"></script>
+
+        <title>Expenditure</title>
+    </head>
+    <body>
+    <div class = 'main'>
+
+        <div class="container">
+               <div class="nav-wrapper">
+                 <ul id="nav-mobile" class="left">
+                   <li> <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons white-text">menu</i></a></li>
+                
+                 </ul>
+               </div>
+
+        
+        
+        <ul id="slide-out" class="side-nav">
+        <li><a style = 'padding:10px;'><h5 style = 'text-align:center; color:#1b5e20;'>MENU</h5></a></li>
+        <div class = 'divider'></div>
+          <li><a href="add-expense.html" style = ' color:#1b5e20;'> <span style = 'top:-7px; position:relative;'>Add Expense</span> <i class="material-icons" style = ''>add</i> </a></li>
+          <li><a href="#" style = ' color:#1b5e20;'> <span style = 'top:-7px; position:relative;'>Add Credit</span> <i class="material-icons" style = ''>add</i> </a></li>
+          <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="collapsible-header" style = ' color:#1b5e20;'> View Expenses <i class="material-icons">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a href="#!" style = ' color:#1b5e20;'>This Week</a></li>
+                    <li><a href="#!" style = ' color:#1b5e20;'>This Month</a></li>
+                    <li><a href="#!" style = ' color:#1b5e20;'>Three Months</a></li>
+                    <li><a href="#!" style = ' color:#1b5e20;'>Time Range</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <div class = 'divider'></div>
+          <li><a style = ' color:#1b5e20;'> <span style = 'top:-7px; position:relative;'>Sync</span> <i class="material-icons" style = ''>sync</i></a></li>
+        </ul>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+        <div class="row">
+
+          <div class="col s3">
+            &nbsp;
+          </div>
+          <div class="col s6">
+           
+    <img class="responsive-img " src="img/icon.png">
+        
+          </div>
+          <div class="col s3">
+            &nbsp;
+          </div>
+
+        </div>
+              
+        <br/>
+        <div class="divider"></div>
+        <br/>
+        <div class="section">
+           <h3 style = 'color:#1b5e20; text-align:center'>Expenditure</h3>
+         </div>
+         <br/>
+         <br/>
+          <a class="btn-floating btn-large waves-effect waves-light green darken-4" href="add-expense.html" style = 'position: absolute; right:20px;'><i class="material-icons">add</i></a>
+         
+      </div>
+      </div>
+
+        
+    </body>
+</html>

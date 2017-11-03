@@ -1,0 +1,19 @@
+.main
+{
+    min-height:100vh;
+    background: #10ad0c; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#10ad0c, #f3ec61); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#10ad0c, #f3ec61); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#10ad0c, #f3ec61); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#10ad0c, #f3ec61); /* Standard syntax */
+    overflow-x:hidden;
+}
+.body
+{
+   overflow-x:hidden; 
+}
+
+.full_card
+{
+    min-height:85vh;
+}
